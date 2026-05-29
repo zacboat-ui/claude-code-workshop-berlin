@@ -8,17 +8,19 @@ import { Contact } from "../components/Contact";
 
 export default function Home() {
   return (
-    <main className="mx-auto max-w-3xl px-6">
+    <>
       <Hero />
-      <About />
-      <Experience />
-      <Projects />
-      <Skills />
-      <Testimonials />
-      <Contact />
-      <footer className="py-10 border-t border-ink/10 text-sm text-ink/50">
-        Made with Claude Code · Berlin · 2026
-      </footer>
-    </main>
+      <main className="mx-auto max-w-3xl px-6">
+        <About />
+        <Experience />
+        <Projects />
+        <Skills />
+        <Testimonials />
+        <Contact />
+        <footer className="py-10 border-t border-ink/10 text-sm text-ink/50">
+          Made with Claude Code · Berlin · 2026
+        </footer>
+      </main>
+    </>
   );
 }

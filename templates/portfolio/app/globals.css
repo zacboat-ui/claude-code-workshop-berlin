@@ -4,4 +4,6 @@
 
 body {
   @apply bg-paper text-ink;
+  background: linear-gradient(180deg, #f0f9ff 0%, #fef9ee 100%);
+  background-attachment: fixed;
 }

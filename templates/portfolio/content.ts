@@ -5,11 +5,11 @@
 // ────────────────────────────────────────────────────────────────
 
 export const hero = {
-  name: "Anna Schneider",
-  role: "Product Designer",
+  name: "Zac",
+  role: "RevOps Analyst",
   location: "Berlin, Germany",
   headline:
-    "I help early-stage teams turn fuzzy ideas into shipping products. Currently designing checkout flows at a fintech startup.",
+    "I help revenue teams work smarter — connecting the dots between sales, marketing, and data to drive predictable growth.",
   ctaPrimary: { label: "See my work", href: "#projects" },
   ctaSecondary: { label: "Get in touch", href: "#contact" },
 };
@@ -17,9 +17,9 @@ export const hero = {
 export const about = {
   heading: "About",
   paragraphs: [
-    "I'm a product designer with seven years of experience across fintech, e-commerce, and developer tools. I care about the unglamorous parts of design — error states, edge cases, and the slow trust-building between a product and its users.",
-    "Before design, I studied philosophy in Munich. It turns out a lot of design is just disciplined thinking about what people actually need versus what they say they want.",
-    "Outside work I climb (poorly), read (constantly), and run a small Sunday breakfast club in Neukölln.",
+    "I'm a RevOps Analyst with five and a half years in revenue operations and six years before that as a Process Engineer at BHP. I came to RevOps with two bachelor's degrees — business and extractive metallurgy — and a habit of thinking in systems that I picked up in mining and brought straight into go-to-market.",
+    "Day to day I work across the full revenue stack: deep analysis for sales, marketing, and leadership, plus administering the software that every customer-facing team depends on. I care about the connective tissue — the data flows, process definitions, and tooling that let a revenue org actually function.",
+    "I moved to Berlin nine years ago and haven't looked back. When I'm not in a spreadsheet or a CRM, I'm surfing, playing padel, reading, or hunting for the next film worth watching.",
   ],
 };
 
@@ -27,25 +27,25 @@ export const experience = {
   heading: "Experience",
   roles: [
     {
-      title: "Senior Product Designer",
-      company: "Tide",
-      period: "2023 — Present",
+      title: "Senior Revenue Operations Analyst",
+      company: "think-cell",
+      period: "Aug 2025 — Feb 2026",
       summary:
-        "Leading checkout and onboarding redesign for the business banking app. Cut signup drop-off by 34% in the first quarter after launch.",
+        "Delivered C-suite and board-level reporting for weekly, monthly, and quarterly GTM rhythms. Owned commission calculations for a Sales org of 80+ people with 100% accuracy. Developed the standardised Weekly Executive Report, transforming raw data into a comprehensive leadership asset.",
     },
     {
-      title: "Product Designer",
-      company: "GitLab",
-      period: "2020 — 2023",
+      title: "Revenue Operations Analyst (Senior)",
+      company: "Productsup",
+      period: "Feb 2021 — Jul 2025",
       summary:
-        "Owned the merge request review experience. Shipped inline code review, suggested changes UX, and the new diff renderer.",
+        "Grew from analyst to senior across four years, supporting 40+ Sales and Marketing stakeholders. Built the company's Revenue and Pipeline target calculation tool, designed a full-funnel analysis in Excel and Qlik, and led three Qlik App projects covering Pipeline Analytics, Quota Performance, and CRO reporting. Deep hands-on work across Salesforce, HubSpot, Outreach, LeanData, and 6Sense.",
     },
     {
-      title: "Designer",
-      company: "Freelance",
-      period: "2017 — 2020",
+      title: "Process Engineer",
+      company: "BHP",
+      period: "Feb 2012 — Apr 2018",
       summary:
-        "Worked with 14 early-stage startups across Berlin and Tel Aviv on brand, web, and product design.",
+        "Six years across graduate and full engineer roles at one of the world's largest mining companies. Chaired daily production meetings, led KPI reporting, managed on-site process improvement projects, and delivered cost and productivity gains through cross-functional collaboration.",
     },
   ],
 };
@@ -54,25 +54,25 @@ export const projects = {
   heading: "Selected work",
   items: [
     {
-      title: "Tide Checkout Redesign",
-      year: "2024",
-      summary:
-        "Reframed the onboarding flow around clarity over speed. Three rounds of usability testing, six prototypes, one launch — 34% improvement in completion.",
-      link: { label: "Case study", href: "#" },
-    },
-    {
-      title: "GitLab Inline Code Review",
+      title: "Revenue & Pipeline Target Tool",
       year: "2022",
       summary:
-        "Designed the inline review pattern now used by 30+ million developers. Started as a hack-week prototype, became a flagship feature.",
-      link: { label: "Read the writeup", href: "#" },
+        "Built Productsup's core revenue forecasting tool in Excel. Allows leadership to adjust key variables and model out quarterly and yearly revenue targets across every GTM department.",
+      link: { label: "Ask me about it", href: "#contact" },
     },
     {
-      title: "Berlin Coffee Map",
+      title: "Pipeline Controlling Process",
       year: "2023",
       summary:
-        "A side project mapping independent coffee roasters in Berlin. Built with React + Mapbox. Used by ~2k people a week.",
-      link: { label: "View live", href: "#" },
+        "Designed a pipeline controlling workflow using cohort-based conversion rates to manage quarterly revenue expectations. Gave leadership a repeatable framework for tracking deals against targets in real time.",
+      link: { label: "Ask me about it", href: "#contact" },
+    },
+    {
+      title: "Weekly Executive Report (think-cell)",
+      year: "2025",
+      summary:
+        "Developed the standardised Weekly Executive Report from scratch — transforming raw CRM and pipeline data into a clean, board-ready asset used by the C-suite and senior leadership team each week.",
+      link: { label: "Ask me about it", href: "#contact" },
     },
   ],
 };
@@ -81,16 +81,20 @@ export const skills = {
   heading: "What I work with",
   groups: [
     {
-      label: "Design",
-      items: ["Product strategy", "Interaction design", "Prototyping", "Usability testing", "Design systems"],
+      label: "CRM & Sales Tools",
+      items: ["Salesforce", "HubSpot", "Outreach", "LeanData", "6Sense", "ZoomInfo", "Lusha"],
     },
     {
-      label: "Tools",
-      items: ["Figma", "Linear", "Notion", "Framer", "FigJam"],
+      label: "Analytics & Reporting",
+      items: ["QlikSense", "Power BI", "Advanced Excel", "SQL / SOQL", "Google Sheets"],
     },
     {
-      label: "Code",
-      items: ["HTML / CSS", "React (basics)", "Git"],
+      label: "Revenue Operations",
+      items: ["Territory planning", "Pipeline management", "Commission calculations", "OKR management", "Full-funnel analysis"],
+    },
+    {
+      label: "Process & Method",
+      items: ["Lean Six Sigma (Greenbelt)", "Process improvement", "Data integrity", "Stakeholder reporting"],
     },
   ],
 };
@@ -100,15 +104,15 @@ export const testimonials = {
   quotes: [
     {
       text:
-        "Anna is rare. She holds the long-term product vision and the pixel-level craft in the same head, and shifts between them without losing either.",
-      author: "Lukas Weber",
-      role: "Head of Product, Tide",
+        "Zac brings a rare combination of analytical rigour and operational instinct. He doesn't just surface data — he builds systems that make the whole revenue org smarter.",
+      author: "Mauri Guerreiro",
+      role: "Head of Revenue Operations, Maltego (ex-Productsup)",
     },
     {
       text:
-        "Working with Anna recalibrated how our whole team thinks about review. She has an instinct for what's actually friction versus what just feels like friction.",
-      author: "Sara Patel",
-      role: "Engineering Manager, GitLab",
+        "Zac is one of those people who makes complex problems look straightforward. His reporting work gave our leadership team a clarity we hadn't had before.",
+      author: "Markus Proesch",
+      role: "CoS Project Manager, think-cell",
     },
   ],
 };
@@ -116,16 +120,14 @@ export const testimonials = {
 export const contact = {
   heading: "Get in touch",
   body:
-    "Open to product design roles, collaborations, and the occasional coffee. Berlin or remote.",
-  email: "anna@example.com",
+    "Open to Revenue Operations roles in Berlin or remote. Happy to connect — whether it's about a role, a collaboration, or just a coffee.",
+  email: "zac.boatwright@gmail.com",
   socials: [
-    { label: "LinkedIn", href: "https://linkedin.com/in/yourname" },
-    { label: "Twitter / X", href: "https://twitter.com/yourname" },
-    { label: "Read.cv", href: "https://read.cv/yourname" },
+    { label: "LinkedIn", href: "https://www.linkedin.com/in/zac-boatwright" },
   ],
 };
 
 export const meta = {
-  title: "Anna Schneider — Product Designer",
-  description: "Berlin-based product designer. Currently at Tide.",
+  title: "Zac — RevOps Analyst",
+  description: "Berlin-based RevOps Analyst.",
 };
